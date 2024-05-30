@@ -139,8 +139,9 @@ if 'Design Library' in driver.page_source:
         for link in links:
             print("\nNavigating to link at depth", depth + 1, ":", link)
             extract_links(driver, link, depth + 1, link)
-    extract_links(driver, url, parent_url=url)
+        return
 
+    extract_links(driver, url, parent_url=url)
         # Nettoyage : Fermer le navigateur après avoir terminé
         
 else:

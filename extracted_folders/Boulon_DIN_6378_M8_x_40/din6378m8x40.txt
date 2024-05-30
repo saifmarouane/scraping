@@ -1,0 +1,12 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-16072008-085774";"";
+"REFERENCE";"DIN 6378 d M8 x l 40";"";
+"STANDARD";"DIN 6378";"";
+"TraceParts.PartTitle";"Boulons agrafe";"";
+"TraceParts.InstanceId";"10-16072008-085774E2I45R5O6I362HJ8DZ26IRL3L";"";
+"TraceParts.PartStandardAcronym";"DIN";"";
+"TraceParts.PartVersion";"1.4.1";"";
+"DESIGN";"Boulon DIN 6378 M8 x 40";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"fr";"";
+"OMNICLASS23";"23.13.23.11.13.19";"";

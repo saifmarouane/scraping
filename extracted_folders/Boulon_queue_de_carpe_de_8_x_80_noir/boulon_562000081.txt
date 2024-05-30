@@ -1,0 +1,11 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-13012006-074191";"";
+"REFERENCE";"562000081";"";
+"STANDARD";"NF E 27811";"";
+"TraceParts.PartTitle";"Série N° 562 : Boulon de scellement à queue de carpe";"";
+"TraceParts.InstanceId";"10-13012006-0741915ZWEFGI4TJGB1P00RFJCCFVH9";"";
+"SUPPLIER";"L'ETOILE";"";
+"DESIGN";"Boulon queue de carpe de 8 x 80 noir";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"fr";"";
+"TraceParts.PartVersion";"1.3.1";"";
