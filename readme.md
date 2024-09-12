@@ -20,13 +20,14 @@ Le script se connecte d'abord à la plateforme TraceParts à l'aide d'identifian
 ## Installation
 
 1. **Cloner le dépôt** :
-   ```bash
+
    
 Installer les dépendances : Utilisez pip pour installer Selenium.
 
-bash
+   ```bash
 Copier le code
 pip install selenium
+   ```
 Télécharger le WebDriver : Téléchargez la version de Chromium/ChromeDriver qui correspond à votre navigateur et placez-le dans le répertoire ../chrome-win/.
 
 Utilisation
@@ -38,14 +39,12 @@ username = 'votre-email@example.com'
 password = 'votre-mot-de-passe'
 Exécuter le script : Lancez le script pour commencer le scraping :
 
-bash
+   ```bash
 Copier le code
 python scraper.py
 Vérifier les résultats : Les données extraites seront sauvegardées dans un fichier JSON :
-
-json
-Copier le code
-breadcrumbs_data.json
+   
+   ```
 Technologies utilisées
 Selenium : Pour automatiser la navigation et l'interaction avec les éléments de la page web.
 Chromium/ChromeDriver : Utilisé comme moteur de rendu pour exécuter le scraping.
@@ -56,9 +55,10 @@ Assurez-vous que votre version de Selenium correspond à la version de votre nav
 
 #  2 eme etape 
 # Téléchargement et extraction de fichiers ZIP depuis des URLs
-bash
+   ```bash
 Copier le code
 python jsonzip.py
+   ```
 Ce projet est un script Python qui télécharge des fichiers ZIP à partir de liens fournis dans un fichier JSON et les extrait automatiquement dans des répertoires distincts. 
 
 ## Description
@@ -91,9 +91,10 @@ Exemple de structure :
 ```
 # etape 3 
 # Prétraitement de fichiers STEP et descriptions textuelles
-bash
-Copier le code
-python extracteddata.py
+   ```bash
+   Copier le code
+   python extracteddata.py
+   ```
 Ce projet a pour objectif de préparer un dataset pour entraîner un modèle en utilisant des fichiers STEP et des fichiers de description associés. Le script parcourt les sous-dossiers, extrait les informations pertinentes des fichiers `.txt` et le code STEP des fichiers `.stp`, puis les formate pour créer un jeu de données prêt à l'emploi.
 
 ## Fonctionnalités principales
@@ -110,19 +111,19 @@ Ce projet a pour objectif de préparer un dataset pour entraîner un modèle en 
 ## Installation
 
 1. **Cloner le dépôt** :
-   ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+
 Configurer les chemins : Ouvrez le script Python et modifiez les variables dossier_principal et fichier_dataset pour pointer vers les chemins corrects sur votre machine :
 python
 Copier le code
 dossier_principal = "C:\\Users\\GO\\Desktop\\github asuprimer\\scraping\\extracted_folders"
-fichier_dataset = "C:\\Users\\GO\\Desktop\\github asuprimer\\scraping\\donnees_pretraitees.txt"
+fichier_dataset = "C:\\Users\\GO\\Desktop\\githubfiles\\scraping\\donnees_pretraitees.txt"
 Utilisation
 Préparer les données : Exécutez le script pour parcourir tous les sous-dossiers, extraire les descriptions utiles et les associer aux fichiers STEP correspondants :
 
-bash
+   ```bash
 Copier le code
 python prepare_dataset.py
+   ```
 Résultats : Un fichier donnees_pretraitees.txt sera généré, contenant les paires d'entrées et de sorties au format suivant :
 
 plaintext
