@@ -21,7 +21,7 @@ Le script se connecte d'abord à la plateforme TraceParts à l'aide d'identifian
 
 1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   
 Installer les dépendances : Utilisez pip pour installer Selenium.
 
 bash
@@ -56,7 +56,9 @@ Assurez-vous que votre version de Selenium correspond à la version de votre nav
 
 #  2 eme etape 
 # Téléchargement et extraction de fichiers ZIP depuis des URLs
-
+bash
+Copier le code
+python jsonzip.py
 Ce projet est un script Python qui télécharge des fichiers ZIP à partir de liens fournis dans un fichier JSON et les extrait automatiquement dans des répertoires distincts. 
 
 ## Description
@@ -84,12 +86,14 @@ Exemple de structure :
     "link": "https://example.com/file2.zip",
     "label_text": "Pièce 2"
   }
-].
+]
 
 ```
 # etape 3 
 # Prétraitement de fichiers STEP et descriptions textuelles
-
+bash
+Copier le code
+python extracteddata.py
 Ce projet a pour objectif de préparer un dataset pour entraîner un modèle en utilisant des fichiers STEP et des fichiers de description associés. Le script parcourt les sous-dossiers, extrait les informations pertinentes des fichiers `.txt` et le code STEP des fichiers `.stp`, puis les formate pour créer un jeu de données prêt à l'emploi.
 
 ## Fonctionnalités principales
