@@ -91,10 +91,7 @@ Exemple de structure :
 ```
 # etape 3 
 # Prétraitement de fichiers STEP et descriptions textuelles
-   ```bash
-   Copier le code
-   python extracteddata.py
-   ```
+
 Ce projet a pour objectif de préparer un dataset pour entraîner un modèle en utilisant des fichiers STEP et des fichiers de description associés. Le script parcourt les sous-dossiers, extrait les informations pertinentes des fichiers `.txt` et le code STEP des fichiers `.stp`, puis les formate pour créer un jeu de données prêt à l'emploi.
 
 ## Fonctionnalités principales
@@ -121,8 +118,8 @@ Utilisation
 Préparer les données : Exécutez le script pour parcourir tous les sous-dossiers, extraire les descriptions utiles et les associer aux fichiers STEP correspondants :
 
    ```bash
-Copier le code
-python prepare_dataset.py
+   Copier le code
+   python extracteddata.py
    ```
 Résultats : Un fichier donnees_pretraitees.txt sera généré, contenant les paires d'entrées et de sorties au format suivant :
 
