@@ -1,10 +1,10 @@
 import os
  
 # Chemin vers votre dossier principalf
-dossier_principal = "/content/drive/MyDrive/extracted_folders"
+dossier_principal = "C:\\Users\\GO\Desktop\\github asuprimer\\scraping\\extracted_folders"
  
 # Chemin vers le fichier où vous allez stocker les données prétraitées
-fichier_dataset = "/content/donnees_pretraitees.txt"
+fichier_dataset = "C:\\Users\\GO\Desktop\\github asuprimer\\scraping\\\\donnees_pretraitees.txt"
  
 # Marqueur spécial pour indiquer le début et la fin du code STEP
 START_STEP_MARKER = "<START_STEP>"
